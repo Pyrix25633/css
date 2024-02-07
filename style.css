@@ -207,6 +207,10 @@ tfoot {
 tr:nth-child(even) td {
     background-color: var(--color-background);
 }
+th.group {
+    margin-left: 2px solid var(--color-foreground);
+    margin-right: 2px solid var(--color-foreground);
+}
 td {
     text-align: center;
 }
