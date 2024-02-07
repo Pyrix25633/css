@@ -1,0 +1,95 @@
+nav#navbar {
+    padding: 20px 0;
+}
+div.navbar {
+    padding: 10px;
+}
+
+div.bottom-margin {
+    margin-bottom: 90px;
+}
+
+div#footer {
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+div#footer *:not(:first-child) {
+    margin-left: 50px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+span.text {
+    margin-top: 5px;
+}
+
+code {
+    padding: 2px;
+}
+
+div.container:not(:first-child) {
+    margin-top: 12px;
+}
+div.container span:not(:first-child) {
+    margin-left: 7px;
+}
+
+div.panel {
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+}
+div.container > img.button:not(:first-child) {
+    margin-left: 5px;
+}
+div.box > img.button:not(:first-child) {
+    margin-top: 5px;
+}
+button img.button {
+    margin-left: 5px;
+}
+
+tr:not(:first-child){
+    margin-top: 5px;
+}
+th, td {
+    padding: 2px 5px;
+}
+
+label#page-label {
+    margin-left: 5px;
+}
+
+div#textarea {
+    margin: 5px 0;
+}
+
+textarea {
+    padding: 5px;
+}
+
+div.textarea-extras {
+    margin-left: 5px;
+}
+
+span.char-counter {
+    margin-top: 5px;
+}
+
+canvas {
+    padding: 5px;
+}
+
+@media screen and (max-width: 850px) {
+    div.panel {
+        padding: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
