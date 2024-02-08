@@ -103,6 +103,9 @@ span.title {
 a {
     color: var(--color-app);
 }
+a.img {
+    display: contents;
+}
 
 code {
     background-color: var(--color-app-transparent);
