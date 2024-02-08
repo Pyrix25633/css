@@ -45,10 +45,10 @@ div.panel {
 button {
     padding: 5px 10px 5px 10px;
 }
-div.container > img.button:not(:first-child) {
+div.container > img.button:not(:first-child), div.container > a.img:not(:first-child) {
     margin-left: 5px;
 }
-div.box > img.button:not(:first-child) {
+div.box > img.button:not(:first-child), div.box > a.img:not(:first-child) {
     margin-top: 5px;
 }
 button img.button {
