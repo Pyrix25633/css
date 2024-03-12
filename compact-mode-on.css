@@ -33,7 +33,7 @@ div.container:not(:first-child) {
     margin-top: 8px;
 }
 div.container span:not(:first-child) {
-    margin-left: 4px;
+    margin-left: 8px;
 }
 
 div.panel {
@@ -45,10 +45,10 @@ div.panel {
 button {
     padding: 2px 4px 2px 4px;
 }
-div.container > img.button:not(:first-child) {
+div.container > img.button:not(:first-child), div.container > a.img:not(:first-child) {
     margin-left: 2px;
 }
-div.box > img.button:not(:first-child) {
+div.box > img.button:not(:first-child), div.box > a.img:not(:first-child) {
     margin-top: 2px;
 }
 button img.button {
@@ -72,6 +72,10 @@ div#textarea {
 
 textarea {
     padding: 2px;
+}
+
+div.textarea-extras {
+    margin-left: 2px;
 }
 
 span.char-counter {
