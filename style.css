@@ -205,8 +205,11 @@ div.margin-top {
 div.panel {
     background-color: var(--color-lighter);
 }
-div.panel > h2, div.panel > h3 {
+div.panel > h2:first-child, div.panel > h3:first-child {
     margin-top: 0;
+}
+div.panel > h2:last-child, div.panel > h3:last-child {
+    margin-bottom: 0;
 }
 div.section h2, div.section h3 {
     margin: 0;
