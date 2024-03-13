@@ -53,6 +53,10 @@ input, select {
 select {
     height: 34px;
 }
+fieldset {
+    border: solid 1px var(--color-foreground);
+    border-radius: 5px;
+}
 button {
     display: flex;
     border: 0;
